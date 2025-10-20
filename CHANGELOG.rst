@@ -1,6 +1,16 @@
 Changelog
 =========
 
+**4.1.5 (Oct 20, 2025)**
+
+* Fix issue that could cause issues saving nested polymorphic forms (`#274`_).
+
+.. _#274: https://github.com/theatlantic/django-nested-admin/pull/274
+
+**4.1.4 (Aug 25, 2025)**
+
+* Remove `six` import
+
 **4.1.3 (Aug 12, 2025)**
 
 * Fixed: correct field help text layout on Django 5.2 (`#273`_). Thanks
